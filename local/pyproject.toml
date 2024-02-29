@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "local"
+version = "0.1.0"
+description = "How to use delta lake locally"
+authors = ["Fernando Chafim <fernandochafim@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+deltalake = "^0.15.3"
+pandas = "^2.2.1"
+requests = "^2.31.0"
+minio = "^7.2.4"
+omegaconf = "^2.3.0"
+hydra-core = "^1.3.2"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

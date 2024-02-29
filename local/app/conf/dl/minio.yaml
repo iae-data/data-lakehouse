@@ -1,0 +1,5 @@
+minio:
+  lakehouse: minio
+  root_user: ROOTNAME
+  root_password: CHANGEME123
+  default_buckets: mybucket

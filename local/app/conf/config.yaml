@@ -1,0 +1,4 @@
+defaults:
+  - dl: minio
+  - schema: school
+  - ui: dash
